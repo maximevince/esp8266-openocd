@@ -264,8 +264,7 @@
 /* 0 if not building for Win32. */
 #undef IS_WIN32
 
-/* Define to the sub-directory in which libtool stores uninstalled libraries.
-   */
+/* Define to the sub-directory where libtool stores uninstalled libraries. */
 #undef LT_OBJDIR
 
 /* Define to 1 if assertions should be disabled. */
@@ -273,9 +272,6 @@
 
 /* Must declare 'environ' to use it. */
 #undef NEED_ENVIRON_EXTERN
-
-/* Define to 1 if your C compiler doesn't accept -c and -o together. */
-#undef NO_MINUS_C_MINUS_O
 
 /* Name of package */
 #undef PACKAGE
